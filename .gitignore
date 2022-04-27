@@ -1,6 +1,5 @@
 *.ipynb_checkpoints
 *pyc
-*.ckpt
 */lightning_logs/*
 misc/*
 data/*
