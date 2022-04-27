@@ -1,0 +1,27 @@
+{
+    "data_params": {
+        "root": "../data",
+        "name": "politifact",
+        "feature": "content",
+        "batch_size": 16
+    },
+    
+    "model_params": {
+        "model_name": "GNN",
+        "in_channels": 310,
+        "hidden_channels": 128,
+        "out_channels": 1,
+        "lr": 0.001
+    },
+    
+    "trainer_params": {
+        "seed": 2022,
+        "name": "gnn_pol",
+        "checkpoint_dir": "../model",
+        "top_k": 5,
+        "max_epochs": 200,
+        "metric": "val_acc",
+        "patience": 20,
+        "mode": "max"
+    }
+}
