@@ -45,9 +45,9 @@ Please follow Pytorch installation instruction in this [link](https://pytorch.or
 ```bash
 pip install torch-scatter -f https://data.pyg.org/whl/torch-${TORCH}+${CUDA}.html
 pip install torch-sparse -f https://data.pyg.org/whl/torch-${TORCH}+${CUDA}.html
-pip install torch-geometric
 pip install torch-cluster -f https://data.pyg.org/whl/torch-${TORCH}+${CUDA}.html
 pip install torch-spline-conv -f https://data.pyg.org/whl/torch-${TORCH}+${CUDA}.html
+pip install torch-geometric
 ```
 where `${TORCH}` and `${CUDA}` is version of Pytorch and Cuda.
 
